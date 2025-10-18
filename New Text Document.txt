@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ÑÇåäãÇí ÊÎÕÕí CNC – Farasazan</title>
+  <style>
+    body {
+      font-family: 'IRANSans', sans-serif;
+      background-color: #1a1a1a;
+      color: #e0e0e0;
+      margin: 0;
+      padding: 20px;
+      line-height: 1.6;
+    }
+    h1, h2 {
+      color: #00bcd4;
+      text-align: center;
+    }
+    .section {
+      margin-bottom: 40px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    th, td {
+      border: 1px solid #444;
+      padding: 8px;
+      text-align: center;
+    }
+    th {
+      background-color: #333;
+      color: #fff;
+    }
+    .download {
+      display: block;
+      text-align: center;
+      margin-top: 20px;
+    }
+    .download a {
+      background-color: #00bcd4;
+      color: #fff;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    .footer {
+      text-align: center;
+      font-size: 0.9em;
+      color: #888;
+      margin-top: 60px;
+    }
+  </style>
+</head>
+<body>
+  <h1>ÑÇåäãÇí ÊÎÕÕí ãÇÔíä˜ÇÑí CNC</h1>
+  <div class="section">
+    <h2>?? ÌÏæá ÑÒæååÇ</h2>
+    <table>
+      <tr><th>äæÚ</th><th>ŞØÑ</th><th>Çã</th><th>ÒÇæíå</th><th>˜ÇÑÈÑÏ</th></tr>
+      <tr><td>M6</td><td>6mm</td><td>1.0mm</td><td>60°</td><td>Úãæãí</td></tr>
+      <tr><td>UNC 1/4</td><td>0.25"</td><td>20 TPI</td><td>60°</td><td>ÏÑÔÊ</td></tr>
+      <tr><td>BSP 1/2"</td><td>1/2"</td><td>14 TPI</td><td>55°</td><td>áæáå˜Ôí</td></tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2>?? İÑãæáåÇí ÈÑÔ æ íÔÑæí</h2>
+    <p><strong>RPM:</strong> (Vc × 1000) ÷ (? × D)</p>
+    <p><strong>Feed:</strong> RPM × N × fz</p>
+  </div>
+
+  <div class="section">
+    <h2>?? ˜ÏåÇí G æ M</h2>
+    <table>
+      <tr><th>˜Ï</th><th>Úãá˜ÑÏ</th></tr>
+      <tr><td>G0</td><td>ÍÑ˜Ê ÓÑíÚ</td></tr>
+      <tr><td>G1</td><td>ÍÑ˜Ê ÈÇ ÓÑÚÊ ÈÑÔ</td></tr>
+      <tr><td>M3</td><td>ÑÎÔ ÇÓíäÏá ÓÇÚÊÑÏ</td></tr>
+      <tr><td>M30</td><td>ÇíÇä ÈÑäÇãå</td></tr>
+    </table>
+  </div>
+
+  <div class="download">
+    <a href="#">ÏÇäáæÏ äÓÎå PDF</a>
+  </div>
+
+  <div class="footer">
+    ØÑÇÍí ÔÏå ÊæÓØ Farasazan | ÈÑÇí CNC˜ÇÑåÇí ÍÑİåÇí
+  </div>
+</body>
+</html>
